@@ -1,1 +1,3 @@
-# essentiel-emmet-sass-compass
+# Essentiel D'Emmet, Sass et Compass
+
+Les préprocesseurs HTML et CSS vous permettent d’optimiser et d’assouplir votre démarche de construction. On pense, souvent à tort, que ces outils ne s’adressent qu’à des sites à gros volume d’information et de contenu. Mais n’oubliez pas deux choses : d’une part, un grand nombre de sites à gros volume ont d’abord été des sites beaucoup plus modestes, et d’autre part, les complexités de déclinaison d’identité visuelle ou les modifications importantes en cours d’élaboration ne sont pas l’apanage des sites à gros volume. Dans cette formation, Birnou Sébarte vous montre comment ces familles d’outils vont pouvoir vous aider et contribuer largement à vous faciliter le travail.
