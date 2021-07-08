@@ -1,0 +1,16 @@
+@import url('http://fonts.googleapis.com/css?family=Lovers+Quarrel|Overlock|Sonsie+One');
+
+$typo-titre:'Lovers Quarrel', cursive;
+$typo-texte:'Overlock', cursive;
+$typo-script:'Sonsie One', cursive;
+
+
+.typo-titre {
+	font-family: $typo-titre;
+}
+.typo-texte {
+	font-family: $typo-texte;
+}
+.typo-script {
+	font-family: $typo-script;
+}

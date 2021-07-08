@@ -1,0 +1,6 @@
+article {
+  font-size:10px;
+}
+.article, #article {
+  font-size:10px;
+}

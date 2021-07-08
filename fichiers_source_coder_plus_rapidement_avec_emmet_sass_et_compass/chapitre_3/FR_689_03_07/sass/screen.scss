@@ -1,0 +1,13 @@
+@import "import";
+@import "variable";
+@import "mixin";
+
+
+.nouveau {
+	@extend %commun;
+	@include encadre($couleur-nouveau);
+}
+.ancien {
+	@extend %commun;
+	@include encadre($couleur-ancien);
+}

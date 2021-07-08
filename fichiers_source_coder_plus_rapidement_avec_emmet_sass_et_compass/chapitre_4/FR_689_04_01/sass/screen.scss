@@ -1,0 +1,12 @@
+@import "compass/layout/grid-background";
+$grid-background-baseline-height:1.5em;
+$grid-background-total-columns:12;
+
+body {
+}
+aside {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	@include grid-background;
+}

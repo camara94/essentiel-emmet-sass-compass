@@ -1,0 +1,14 @@
+em {
+  ~ article {
+    color:white;
+  }
+  > span {
+    color:red;
+  }
+  + em {
+    color:green;
+  }
+  strong + & {
+    color:black;
+  }
+}

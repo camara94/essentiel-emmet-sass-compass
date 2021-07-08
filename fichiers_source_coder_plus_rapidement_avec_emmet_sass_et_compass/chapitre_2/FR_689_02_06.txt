@@ -1,0 +1,9 @@
+h1 {
+  color:rgb(163,217,0);
+  &.clair {
+    color:lighten(rgb(163,217,0),50%);
+  }
+  &.fonce {
+    color:darken(rgb(163,217,0),10%);
+  }
+}

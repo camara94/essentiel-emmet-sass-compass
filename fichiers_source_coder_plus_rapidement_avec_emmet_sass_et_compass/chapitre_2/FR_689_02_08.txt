@@ -1,0 +1,16 @@
+@mixin encadre($size:1px,$couleur:rgb(163,217,0)) {
+  border:$size solid darken($couleur,10%);
+  color:$couleur;
+  background-color:lighten($couleur,50%);
+  border-radius:4 * $size;
+  h1 {
+    font-weight:700;
+  }
+}
+
+article {
+  @include encadre;
+}
+div.notes {
+  @include encadre(2em,blue)
+}

@@ -1,0 +1,27 @@
+.ui-sprite, .ok, .dwnd, .moins {
+  background: url('../images/ui-s6bc7f4651f.png') no-repeat;
+}
+
+.ok {
+  background-position: -20px -20px;
+  height: 20px;
+  width: 20px;
+}
+.ok:hover, .ok.ok_hover, .ok.ok-hover {
+  background-position: -40px -20px;
+}
+
+.dwnd {
+  background-position: 0 -40px;
+  height: 26px;
+  width: 98px;
+}
+
+.moins {
+  background-position: -60px 0;
+  height: 20px;
+  width: 20px;
+}
+.moins:hover, .moins.moins_hover, .moins.moins-hover {
+  background-position: -60px -20px;
+}

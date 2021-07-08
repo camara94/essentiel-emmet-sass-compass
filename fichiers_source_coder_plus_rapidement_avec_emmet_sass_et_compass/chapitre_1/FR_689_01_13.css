@@ -1,0 +1,28 @@
+body {
+	color: #333;
+	color: #333;
+	color: #fafafa;
+	color: #3cf;
+
+	color: rgb(125, 25, 34);
+	color: rgba(125, 25, 34, 0.5);
+
+	color: rgba(102,102,102,1);
+	
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.1, #FFDFBF), color-stop(0.35, #FFFF73), to(#85B200));
+	background-image: -webkit-linear-gradient(left top, #FFDFBF 10%, #FFFF73 35%, #85B200);
+	background-image: -moz-linear-gradient(left top, #FFDFBF 10%, #FFFF73 35%, #85B200);
+	background-image: -o-linear-gradient(left top, #FFDFBF 10%, #FFFF73 35%, #85B200);
+	background-image: linear-gradient(left top, #FFDFBF 10%, #FFFF73 35%, #85B200);
+	
+}
+	c#1
+	c#fa
+	c#3cf
+
+	c:r
+	c:ra
+	lg(#333,#85B200)
+	lg(left,#333,#85B200)
+	lg(left top,#333,#85B200)
+	lg(left top,#333 10%, #FFFF73 35%,#85B200)

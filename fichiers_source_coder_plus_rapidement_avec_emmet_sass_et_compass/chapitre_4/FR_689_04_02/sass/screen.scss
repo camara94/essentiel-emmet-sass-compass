@@ -1,0 +1,22 @@
+@import "compass/layout/grid-background";
+@import "compass/typography/vertical_rhythm";
+
+$base-font-size:16px;
+$base-line-height:24px;
+@include establish-baseline;
+
+body {
+	@include grid-background;
+}
+h1 {
+	//font-size: 48px;
+	@include adjust-font-size-to(48px);
+}
+h2 {
+	//font-size: 36px;
+	@include adjust-font-size-to(36px);
+}
+p {
+	//font-size: 14px;
+	@include adjust-font-size-to(14px);
+}

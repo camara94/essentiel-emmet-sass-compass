@@ -1,0 +1,13 @@
+.ok {
+	//background: url(../images/ok.png) no-repeat;
+	//background: image-url('ok.png') no-repeat;
+	background: inline-image('../images/ok.png') no-repeat;
+}
+.plus {
+	//background: image-url('plus.png') no-repeat;
+	background: inline-image('../images/plus.png') no-repeat;
+}
+.moins {
+	//background: image-url('moins.png') no-repeat;
+	background: inline-image('../images/moins.png') no-repeat;
+}

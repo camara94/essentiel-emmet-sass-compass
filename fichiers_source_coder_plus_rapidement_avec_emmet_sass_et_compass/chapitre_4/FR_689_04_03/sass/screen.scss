@@ -1,0 +1,24 @@
+@import url('../fonts/stylesheet.css');
+.typo-lienCSS{
+	font-family: 'porter_sans_blockblock';
+}
+
+@import "compass/css3/font-face";
+@include font-face('compassFF',font-files('porter-sans-inline-block-webfont.woff','porter-sans-inline-block-webfont.eot','porter-sans-inline-block-webfont.ttf','porter-sans-inline-block-webfont.svg'));
+.typo-compassFF {
+  font-family: 'compassFF';
+}
+
+@font-face {
+	font-family: 'emmetST';
+	src: url('../fonts/porter-sans-inline-block-webfont.eot');
+	src: url('../fonts/porter-sans-inline-block-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/porter-sans-inline-block-webfont.woff') format('woff'),
+		 url('../fonts/porter-sans-inline-block-webfont.ttf') format('truetype'),
+		 url('../fonts/porter-sans-inline-block-webfont.svg#emmetST') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+.typo-emmetST{
+	font-family: 'emmetST';
+}

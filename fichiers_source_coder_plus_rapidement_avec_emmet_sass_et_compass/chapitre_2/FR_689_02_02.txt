@@ -1,0 +1,8 @@
+$couleur:blue;
+
+body {
+  color:$couleur;
+}
+h1 {
+  color:$couleur;
+}

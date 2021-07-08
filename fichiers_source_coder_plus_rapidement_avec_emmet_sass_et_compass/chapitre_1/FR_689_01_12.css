@@ -1,0 +1,68 @@
+body {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+
+	padding: 1px;
+	padding: 1%;
+	padding: 1em;
+	padding: 1ex;
+	padding: 1rem;
+
+	margin: 1em;
+	padding: 0.4em;
+
+	margin: 1em !important;
+
+	overflow: hidden;
+	position: absolute;
+	vertical-align: top;
+
+	text-align: left;
+
+	background: #333;
+	background: #333 url(image.png) 1 1 no-repeat;
+	background-color: #fff;
+
+	
+	font-size: 1.2em;
+	font: 1em Arial,sans-serif;
+	@font-face {
+		font-family: 'latypo';
+		src: url('../fonts/fichiertypo.eot');
+		src: url('../fonts/fichiertypo.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/fichiertypo.woff') format('woff'),
+			 url('../fonts/fichiertypo.ttf') format('truetype'),
+			 url('../fonts/fichiertypo.svg#latypo') format('svg');
+		font-style: normal;
+		font-weight: normal;
+	}
+
+}
+w100
+h100
+m10
+p10
+
+p1
+p1p
+p1e
+p1x
+
+m1em!>p.4e!
+
+
+ov:h
+pos:a, posa pos-a
+va:b
+ta:l vs tal
+
+bg
+bg+
+bgc	ctrl + shift R
+
+f
+f+
+fz1.2em
+@f+

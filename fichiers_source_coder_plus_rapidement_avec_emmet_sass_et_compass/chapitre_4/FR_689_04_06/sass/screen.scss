@@ -1,0 +1,13 @@
+$ui-layout:smart;
+$ui-sprite-dimensions:true;
+@import "ui/*.png";
+
+.ok {
+	@include ui-sprite(ok);
+}
+.dwnd {
+	@include ui-sprite(dwnd);
+}
+.moins {
+	@include ui-sprite(moins);
+}

@@ -1,0 +1,14 @@
+/*! Template-Name:!*/
+/*des commentaires*/
+// également un commentaires
+$couleur: blue;
+
+body {
+  color: $couleur;
+}
+
+h1 {
+  color: $couleur;
+  font-size:1.2em;
+  background-color: #fff;
+}

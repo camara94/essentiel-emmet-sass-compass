@@ -1,0 +1,18 @@
+%garde-place {
+  color:green;
+  h1 {
+    font-size:12px;
+  }
+  p {
+    font-size:10px;
+  }
+}
+.heritage {
+  @extend %garde-place;
+}
+.nouveau {
+  @extend %garde-place;
+  a {
+    text-decoration:none;
+  }
+}

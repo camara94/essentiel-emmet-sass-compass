@@ -1,0 +1,27 @@
+$colorA: #222;
+$colorB: #112233;
+$colorC: rgba(125,125,125,0.3);
+$colorD: hsla(212, 39%, 65%, 0.86);
+
+$listeA:(commercial, marketing, sav, client);
+@each $i in $listeA {
+  .fond-#{$i} {
+    //background-color:$colorA;
+  }
+}
+$listeB:("commercial":$colorA,"marketing":$colorB,"sav":$colorC,"client":$colorD);
+@each $i, $j in $listeB {
+  .fond-#{$i} {
+    //background-color:#{$j};
+  }
+}
+$listeC:(commercial,$colorA,$colorA*2),
+        (marketing,$colorB,$colorB*1.5), 
+         (sav,$colorC,opacify($colorC,0.35)) ,
+         (client, $colorD);
+@each $i, $j, $k in $listeC {
+  .fond-#{$i} {
+    color:#{$k};
+    background-color:#{$j};
+  }
+}

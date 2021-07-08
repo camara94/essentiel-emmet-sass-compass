@@ -1,0 +1,20 @@
+//$couleur:rgb(163,217,0);
+$couleur:#4D7AFF;
+$colA: #123;
+$colB: #222;
+$colC: rgb(163,217,0);
+$colD: rgba(163,217,0,0.3);
+body {
+  //color:$colA * 2;
+  //color:$colA + $colB;
+  color:$colC + $colB;
+}
+h1 {
+  color:$couleur;
+  &.clair {
+    color:lighten($couleur,20%);
+  }
+  &.fonce {
+    color:darken($couleur,10%);
+  }
+}

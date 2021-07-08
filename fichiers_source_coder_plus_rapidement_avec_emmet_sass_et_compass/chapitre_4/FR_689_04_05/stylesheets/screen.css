@@ -1,0 +1,37 @@
+.boutons-over-sprite, .boutons-over-bleu, .boutons-over-mauve, .boutons-over-rouille, .boutons-over-vert {
+  background: url('../images/boutons-over-s5571b84ac0.png') no-repeat;
+}
+
+.boutons-over-bleu {
+  background-position: 0 -216px;
+}
+.boutons-over-bleu:hover, .boutons-over-bleu.bleu_hover, .boutons-over-bleu.bleu-hover {
+  background-position: 0 -360px;
+}
+
+.boutons-over-mauve {
+  background-position: 0 0;
+}
+.boutons-over-mauve:hover, .boutons-over-mauve.mauve_hover, .boutons-over-mauve.mauve-hover {
+  background-position: 0 -288px;
+}
+
+.boutons-over-rouille {
+  background-position: 0 -144px;
+}
+.boutons-over-rouille:hover, .boutons-over-rouille.rouille_hover, .boutons-over-rouille.rouille-hover {
+  background-position: 0 -504px;
+}
+
+.boutons-over-vert {
+  background-position: 0 -72px;
+}
+.boutons-over-vert:hover, .boutons-over-vert.vert_hover, .boutons-over-vert.vert-hover {
+  background-position: 0 -432px;
+}
+
+.boutons li {
+  text-indent: -9999px;
+  width: 72px;
+  height: 72px;
+}
